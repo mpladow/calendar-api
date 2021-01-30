@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace calendar_api.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
     public class AccountController : Controller
     {
