@@ -29,7 +29,7 @@ namespace calendar_api
         {
             services.AddDbContext<DataContext>(options =>
             {
-                options.UseSqlite("Connection string");
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
             services.AddControllers();
         }
