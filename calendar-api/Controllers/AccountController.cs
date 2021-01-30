@@ -16,10 +16,12 @@ namespace calendar_api.Controllers
         public IActionResult Authenticate(string username, string password)
         {
             // authenticate the user and return an auth token
+            return null;
         }
         public IActionResult Register(string username, string password)
         {
             // register a username and password
+            return null;
         }
     }
 }
